@@ -1,0 +1,237 @@
+/*
+Author: Madhusudan Mainali
+File Name: styles.css
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img, ul{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+/*style for body and images */
+body{
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Styles rule for header*/
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 170px;
+}
+
+header img{
+    margin: 0 auto;
+    height: 170px; 
+    width: 170px;
+}
+
+/*Show mobile class, hide tablet-desktop class */
+.mobile{
+    display: bolck;
+}
+
+#Hero{
+    background-color: white;
+}
+
+#Hero img{
+    height: 800px;
+    width: 1800px;
+}
+
+.tablet-desktop{
+    display: none;
+    height: auto;
+    width: audo;
+}
+
+/*Style rules for navigation area */
+nav{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    font-size: 1.5em;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child{
+    border-top: none;
+}
+
+nav li a{
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main{
+    background-color: #fff;
+    padding: 2%;
+    margin: 0 auto;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+main section{
+    margin-bottom: 20px;
+}
+
+main section h2{
+    color: #333;
+}
+
+.offer{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.offer h3{
+    margin: 0 0 5px 0;
+}
+
+.offer p{
+    margin: 5px 0;
+}
+
+.offer button{
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.offer button:hover{
+    background-color: #555;
+}
+
+.hours{
+    margin-left: 10%;
+}
+
+/*CSS property for product category*/
+.product-category{
+    margin-bottom: 20px;
+}
+
+.product-category h3{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-category ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-category ul li{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-category ul li h4{
+    margin: 0 0 5px 0;
+}
+
+.product-category ul li p{
+    margin: 5px 0;
+}
+
+.product-category ul li button{
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: white;
+    padding: 0 1em;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+/*css style for map */
+.map{
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact .contact-email-link{
+    color: #666600;
+    text-decoration: none;
+}
+
+.tel-link{
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+/*CSS style for Team Member */
+.team-member{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.team-member h3{
+    margin: 0 0 5px 0;
+}
+
+.team-member p{
+    margin: 5px 0;
+}
+
